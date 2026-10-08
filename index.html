@@ -1,0 +1,381 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muhamad Rio Ferdinan | Cyber Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Custom Cyber Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-blur"></div>
+
+    <!-- 3D Canvas Background -->
+    <canvas id="bg"></canvas>
+
+    <!-- Overlay Grid Pattern -->
+    <div class="scanline"></div>
+
+    <main>
+        <!-- PROFILE CARD -->
+        <header class="hero-card">
+            <div class="avatar-wrapper">
+                <img src="./file_00000000cb308211a696a2b37e2db232.png" alt="Muhamad Rio Ferdinan" class="profile-img">
+                <div class="status-indicator">
+                    <span class="dot"></span> Open for Internship
+                </div>
+            </div>
+            
+            <div class="hero-text">
+                <div class="code-tag">&lt;developer&gt;</div>
+                <h1>Muhamad Rio Ferdinan</h1>
+                <p class="tagline">Informatics Engineering @ PENS</p>
+                <p class="subtitle">Specializing in <span class="highlight">IoT Systems</span> & <span class="highlight">Fullstack Web Engineering</span></p>
+
+                <div class="tech-pills">
+                    <span>ESP8266</span>
+                    <span>Flask</span>
+                    <span>Next.js</span>
+                    <span>TypeScript</span>
+                    <span>MySQL</span>
+                </div>
+
+                <div class="hero-actions">
+                    <a href="#projects" class="btn btn-primary">Explore Projects</a>
+                    <a href="https://github.com/rioferdinan27" target="_blank" class="btn btn-secondary">GitHub Profile &rarr;</a>
+                </div>
+
+                <div class="social-row">
+                    <a href="https://github.com/rioferdinan27" target="_blank" class="social-btn" aria-label="GitHub">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                        <span>rioferdinan27</span>
+                    </a>
+                    <a href="https://instagram.com/rioferdinan27" target="_blank" class="social-btn" aria-label="Instagram">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+                        <span>Instagram</span>
+                    </a>
+                    <a href="https://tiktok.com/@rioferdinan27" target="_blank" class="social-btn" aria-label="TikTok">
+                        <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor"><path d="M19.59 6.69a4.83 4.83 0 0 1-3.77-4.25V2h-3.45v13.67a2.89 2.89 0 0 1-5.2 1.74 2.89 2.89 0 0 1 2.31-4.64 2.93 2.93 0 0 1 .88.13V9.4a6.84 6.84 0 0 0-1-.05A6.33 6.33 0 0 0 5 20.1a6.34 6.34 0 0 0 10.86-4.43v-7a8.16 8.16 0 0 0 4.77 1.52v-3.4a4.85 4.85 0 0 1-1-.1z"/></svg>
+                        <span>TikTok</span>
+                    </a>
+                </div>
+            </div>
+        </header>
+
+        <!-- ABOUT SECTION -->
+        <section id="about" class="glass-section">
+            <div class="section-header">
+                <span class="sec-num">01.</span>
+                <h2>System Overview</h2>
+            </div>
+            <p>I am a Software Engineering student bridging the gap between hardware sensors and scalable web applications. Experienced in designing REST APIs, managing databases, and programming ESP8266/Arduino microcontrollers for real-world monitoring.</p>
+        </section>
+
+        <!-- SKILLS SECTION -->
+        <section id="skills" class="glass-section">
+            <div class="section-header">
+                <span class="sec-num">02.</span>
+                <h2>Tech Matrix</h2>
+            </div>
+            <div class="matrix-grid">
+                <div class="matrix-card">
+                    <div class="matrix-head">
+                        <span class="matrix-icon">⌨️</span>
+                        <h4>Languages</h4>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" loading="lazy"><span>Java</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" loading="lazy"><span>Python</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP" loading="lazy"><span>PHP</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" loading="lazy"><span>JavaScript</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript" loading="lazy"><span>TypeScript</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++" loading="lazy"><span>C++</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" loading="lazy"><span>HTML5</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" loading="lazy"><span>CSS3</span></div>
+                    </div>
+                </div>
+                <div class="matrix-card">
+                    <div class="matrix-head">
+                        <span class="matrix-icon">⚛️</span>
+                        <h4>Frameworks & Web</h4>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" alt="Laravel" loading="lazy"><span>Laravel</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask" class="invert-icon" loading="lazy"><span>Flask</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js" class="invert-icon" loading="lazy"><span>Next.js</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" loading="lazy"><span>React</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" loading="lazy"><span>Node.js</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" alt="Express" class="invert-icon" loading="lazy"><span>Express</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" alt="Tailwind" loading="lazy"><span>Tailwind</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="Bootstrap" loading="lazy"><span>Bootstrap</span></div>
+                    </div>
+                </div>
+                <div class="matrix-card">
+                    <div class="matrix-head">
+                        <span class="matrix-icon">🗄️</span>
+                        <h4>Databases & Tools</h4>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" loading="lazy"><span>MySQL</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" loading="lazy"><span>PostgreSQL</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" loading="lazy"><span>MongoDB</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" loading="lazy"><span>Docker</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" loading="lazy"><span>Git</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub" class="invert-icon" loading="lazy"><span>GitHub</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code" loading="lazy"><span>VS Code</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postman/postman-original.svg" alt="Postman" loading="lazy"><span>Postman</span></div>
+                    </div>
+                </div>
+                <div class="matrix-card">
+                    <div class="matrix-head">
+                        <span class="matrix-icon">🔌</span>
+                        <h4>Hardware & IoT</h4>
+                    </div>
+                    <div class="tech-items">
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/arduino/arduino-original.svg" alt="Arduino" loading="lazy"><span>Arduino</span></div>
+                        <div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/raspberrypi/raspberrypi-original.svg" alt="Raspberry Pi" loading="lazy"><span>Raspberry Pi</span></div>
+                        <div class="tech-item"><span class="emoji-icon">📟</span><span>ESP32</span></div>
+                        <div class="tech-item"><span class="emoji-icon">📶</span><span>ESP8266</span></div>
+                        <div class="tech-item"><span class="emoji-icon">🌡️</span><span>DHT / Ultrasonic</span></div>
+                        <div class="tech-item"><span class="emoji-icon">📡</span><span>MQTT / REST</span></div>
+                        <div class="tech-item"><span class="emoji-icon">📊</span><span>Telemetry</span></div>
+                        <div class="tech-item"><span class="emoji-icon">🛠️</span><span>PlatformIO</span></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FEATURED PROJECTS -->
+        <section id="projects" class="glass-section">
+            <div class="section-header">
+                <div>
+                    <span class="sec-num">03.</span>
+                    <h2>Featured Engineering Projects</h2>
+                </div>
+                <!-- Project Filter Buttons -->
+                <div class="project-filters">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="iot">IoT & Hardware</button>
+                    <button class="filter-btn" data-filter="backend">Backend & SQL</button>
+                    <button class="filter-btn" data-filter="fullstack">Modern Fullstack</button>
+                </div>
+            </div>
+
+            <div class="project-grid">
+                <!-- PROJECT 1 -->
+                <div class="project-card" data-category="backend">
+                    <div class="project-header">
+                        <div class="terminal-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="card-badge">Backend & Systems</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-status"><span class="pulse-green"></span> Production Architecture</div>
+                        <h3>SI-PENAKERLA</h3>
+                        <p class="tagline-project">Sistem Informasi Ketenagakerjaan Terpadu</p>
+                        <p class="desc">Platform manajemen dan penempatan tenaga kerja berbasis web untuk instansi daerah. Dirancang dengan proteksi Role-Based Access Control (RBAC), hashing password Bcrypt, dan relasi database MySQL yang terorganisir.</p>
+                        
+                        <div class="architecture-box">
+                            <span class="arch-label">Architecture:</span>
+                            <code>Client &rarr; Flask REST/Jinja2 &rarr; PyMySQL &rarr; Relational DB</code>
+                        </div>
+
+                        <div class="project-specs">
+                            <span>Bcrypt Auth</span>
+                            <span>Role-Based Access</span>
+                            <span>Relational Schema</span>
+                            <span>Data Validation</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/rioferdinan27/si-penakerla" target="_blank" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 2 -->
+                <div class="project-card" data-category="fullstack">
+                    <div class="project-header">
+                        <div class="terminal-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="card-badge">Modern Fullstack</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-status"><span class="pulse-cyan"></span> Fullstack App</div>
+                        <h3>SIJARAK</h3>
+                        <p class="tagline-project">Road Damage Geotagged Reporting System</p>
+                        <p class="desc">Aplikasi pelaporan kondisi infrastruktur jalan bagi masyarakat dengan geotagging koordinat lokasi, status progress tiket (Dilaporkan &rarr; Verifikasi &rarr; Perbaikan), dan antarmuka responsif.</p>
+                        
+                        <div class="architecture-box">
+                            <span class="arch-label">Architecture:</span>
+                            <code>Next.js App Router &rarr; API Handlers &rarr; MongoDB Mongoose</code>
+                        </div>
+
+                        <div class="project-specs">
+                            <span>Geotagging Data</span>
+                            <span>Status Workflow</span>
+                            <span>Next.js Server Actions</span>
+                            <span>Tailwind UI</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/rioferdinan27/sijarak" target="_blank" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- PROJECT 3 -->
+                <div class="project-card" data-category="iot">
+                    <div class="project-header">
+                        <div class="terminal-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span class="card-badge">IoT Core</span>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-status"><span class="pulse-amber"></span> Hardware Prototype</div>
+                        <h3>IoT Smart Monitoring</h3>
+                        <p class="tagline-project">End-to-End Microcontroller Telemetry</p>
+                        <p class="desc">Sistem telemetri sensor lingkungan berbasis ESP8266 Wi-Fi Station yang mengirimkan metrik realtime (suhu, kelembapan, jarak) ke server REST API untuk visualisasi grafik data kontinu.</p>
+                        
+                        <div class="architecture-box">
+                            <span class="arch-label">Architecture:</span>
+                            <code>Sensor Array &rarr; ESP8266 (C++) &rarr; HTTP/MQTT &rarr; API &rarr; UI Dashboard</code>
+                        </div>
+
+                        <div class="project-specs">
+                            <span>ESP8266</span>
+                            <span>C++</span>
+                            <span>REST API</span>
+                            <span>Charts</span>
+                        </div>
+
+                        <div class="project-links">
+                            <a href="https://github.com/rioferdinan27/iot-smart-monitoring" target="_blank" class="card-link">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+                                GitHub Repo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer>
+            <p>// ENGINEERED BY MUHAMAD RIO FERDINAN &bull; PENS SURABAYA</p>
+        </footer>
+    </main>
+
+    <!-- Three.js UMD -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Website Pribadi</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f0f4f8;
+      color: #333;
+    }
+    header {
+      background-color: #2c3e50;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    main {
+      padding: 30px;
+      max-width: 800px;
+      margin: auto;
+    }
+    img.profile {
+      max-width: 150px;
+      border-radius: 50%;
+      display: block;
+      margin: 0 auto 20px;
+    }
+    section {
+      margin-bottom: 30px;
+    }
+    h2 {
+      border-bottom: 2px solid #ccc;
+      padding-bottom: 5px;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      background-color: #2c3e50;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Muhamad Rio Ferdinan</h1>
+    <p>Website Pribadi</p>
+  </header>
+
+  <main>
+    <!-- Ganti src dengan path file lokal atau online -->
+    <img src="https://uploads.onecompiler.io/43hpurhn4/43hptw58d/tess.jpg" alt="Foto Profil Muhamad Rio Ferdinan" class="profile" />
+
+    <section>
+      <h2>Tentang Saya</h2>
+      <p>Halo! Saya adalah seseorang yang senang belajar dan berbagi pengetahuan. Saya memiliki minat di bidang teknologi, desain, dan pengembangan web.</p>
+    </section>
+
+    <section>
+      <h2>Data Pribadi</h2>
+      <ul>
+        <li><strong>Nama:</strong> Muhamad Rio Ferdinan</li>
+        <li><strong>Tanggal Lahir:</strong> 14 November 2007</li>
+        <li><strong>Alamat:</strong> Lamongan, Jawa Timur</li>
+        <li><strong>Email:</strong> Rio65901@gmail.com</li>
+        <li><strong>Telepon:</strong> 085732734996</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Pendidikan</h2>
+      <p>Politeknik Elektronika negeri surabaya</p>
+    </section>
+
+    <section>
+      <h2>Media Sosial</h2>
+      <ul>
+        <li><a href="https://linkedin.com/in/namakamu" target="_blank">LinkedIn</a></li>
+        <li><a href="https://github.com/namakamu" target="_blank">GitHub</a></li>
+        <li><a href="https://instagram.com/namakamu" target="_blank">Instagram</a></li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Muhamad Rio Ferdinan. All rights reserved.
+  </footer>
+
+</body>
+</html>
+>>>>>>> a77cc57550e8574cf1ecb4a9e4dadf60092e0ed7
